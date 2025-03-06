@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card NIRANJANA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           background: linear-gradient(135deg, #23074d, #cc5333);
+
+
+ 
+            color: #fff;
+            padding: 20px;
+        }
+
+        .card {
+            width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid gray;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+        }
+
+        .name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #95a5a6;
+}
+
+        }
+
+        .designation {
+            font-size: 1em;
+            color: #ddd;
+            font-weight: 400;
+        }
+
+        .bio {
+            font-size: 0.9em;
+            margin: 10px 0;
+            color: #f1f1f1;
+        }
+
+        .section {
+            margin-top: 15px;
+            text-align: left;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+        }
+
+        .section h3 {
+            font-size: 1em;
+            color: #ffdd57;
+            margin-bottom: 5px;
+        }
+
+        .contact p {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: white;
+            transition: color 0.3s ease-in-out, transform 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #ffdd57;
+            transform: scale(1.2);
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #bbb;
+            text-align: center;
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="niranjanaphoto.jpeg" alt="Profile Picture" class="profile-img">
+        <h2 class="name">NIRANJANA Y D</h2>
+        <p class="designation">Software Engineer Associate </p>
+        <p class="bio">Motivated and highly adaptable graduate with a Bachelor's in Information Science & Engineering, skilled in Java Full-Stack Development.</p>
+
+        <div class="section">
+            <h3>Education</h3>
+            <p><strong>B.E - Information Science & Engineering</strong></p>
+            <p>Brindavan College of Engineering, Bengaluru - 2024</p>
+        </div>
+
+        <div class="section">
+            <h3>Technical Skills</h3>
+            <p><strong>Backend:</strong> Java, J2EE, Spring Boot, REST APIs</p>
+            <p><strong>Frontend:</strong> HTML, CSS, Bootstrap, ReactJS</p>
+            <p><strong>Database:</strong> MySQL</p>
+        </div>
+
+        <div class="section">
+            <h3>Projects</h3>
+            <p><strong>Event Management System</strong> - Online event booking system.</p>
+            <p><strong>Pet Hub</strong> - E-commerce platform for pet products.</p>
+        </div>
+
+        <div class="section contact">
+            <h3>Contact</h3>
+            <p>📧 niranjanaaradhya97@gmail.com</p>
+            <p>📞 8618950086</p>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/niranjana-y-d-9b276026" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 || Niranjana Y D || All Rights Reserved.
+    </div>
+
+</body>
+</html>
